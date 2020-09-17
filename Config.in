@@ -1,0 +1,9 @@
+config BR2_PACKAGE_FS_EXPECT
+    bool "fs_expect"
+    help
+      fs_expect is a user mode application which is modifiable and works like expect
+    
+      https://github.org/fmcoastal/LinuxSerialCode
+      scp root@10.11.65.82:/scratch/fs_expect
+
+comment "I do not have any comments"
